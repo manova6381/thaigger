@@ -35,7 +35,7 @@ body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
   font-weight: 400;
-  color: #777;
+  color: #1c1c1c;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -146,7 +146,7 @@ ul {
 ul li {
   margin-bottom: 0px;
   line-height: 1.5;
-  color: #777;
+  color: #1c1c1c;
   position: relative;
   display: inline-block;
   padding: 0;
@@ -162,13 +162,13 @@ ol li {
   font-size: 16px;
   margin-bottom: 10px;
   line-height: 1.5;
-  color: #777;
+  color: #1c1c1c;
   padding-left: 0;
   position: relative;
 }
 
 a {
-  color: #777;
+  color: #1c1c1c;
   transition: all ease-in-out 0.5s;
   cursor: pointer;
   text-decoration: none;
@@ -188,11 +188,11 @@ a:not([href]):not([tabindex]):hover {
 }
 
 input::-moz-placeholder {
-  color: #777 !important;
+  color: #1c1c1c !important;
 }
 
 input::placeholder {
-  color: #777 !important;
+  color: #1c1c1c !important;
 }
 
 .row [class*=col-] {
@@ -254,7 +254,7 @@ img {
 }
 
 .grey {
-  color: #777 !important;
+  color: #1c1c1c !important;
 }
 
 .title {
@@ -700,7 +700,7 @@ select {
   border: 1px solid #f1f1f1;
   border-radius: 10px;
   padding: 12px 20px;
-  color: #777;
+  color: #1c1c1c;
   margin-bottom: 0;
   height: 50px;
   box-shadow: none;
@@ -739,7 +739,7 @@ textarea {
 
 label {
   display: inline-block;
-  color: #777;
+  color: #1c1c1c;
   margin-bottom: 8px;
   font-weight: 400;
   font-size: 15px;
@@ -1329,7 +1329,7 @@ input#submit:hover {
 
 .item-slider .slick-prev::before,
 .item-slider .slick-next::before {
-  color: #777;
+  color: #1c1c1c;
   font-size: 18px;
   line-height: 1.5;
 }
@@ -2193,11 +2193,11 @@ header #navbar {
 .main_header_area .register-login a {
   font-size: 15px;
   text-transform: uppercase;
-  color: #777;
+  color: #1c1c1c;
 }
 
 .main_header_area .register-login .dropdown a {
-  color: #777 !important;
+  color: #1c1c1c !important;
   text-transform: capitalize;
 }
 
@@ -2211,7 +2211,7 @@ header #navbar {
 }
 
 .main_header_area .header_menu.fixed-top .register-login a {
-  color: #777 !important;
+  color: #1c1c1c !important;
 }
 
 .main_header_area .header_menu.fixed-top .register-login a.nir-btn {
@@ -2279,7 +2279,7 @@ header #navbar {
 }
 
 .main_header_area.headerstye-1 .header_menu.fixed-top .search-main a i {
-  color: #777;
+  color: #1c1c1c;
 }
 
 @media (max-width: 1400px) and (min-width: 1300px) {
@@ -2426,7 +2426,7 @@ header #navbar {
 
 .header_menu .navbar.navbar-default .nav.navbar-nav li.submenu .dropdown-menu li a {
   line-height: 2.5;
-  color: #777;
+  color: #1c1c1c;
   font-size: 14px;
   padding: 3px 20px;
   font-weight: 400;
@@ -2513,7 +2513,7 @@ header #navbar {
   position: absolute;
   top: 40%;
   width: 50%;
-  color: #777;
+  color: #1c1c1c;
   background: transparent;
   font-size: 48px;
   font-weight: 400;
@@ -2658,7 +2658,7 @@ header #navbar {
 
   .header_menu .navbar.navbar-default .nav.navbar-nav li.submenu .dropdown-menu li.submenu .dropdown-menu li a {
     line-height: 3;
-    color: #777;
+    color: #1c1c1c;
     font-size: 15px;
     padding: 3px 20px;
     letter-spacing: 0.3px;
@@ -2801,7 +2801,7 @@ nav.navbar.navbar-default.navbar-sticky-in .logo-black {
 }
 
 .main_header_area.headerstye-1 .header_menu.fixed-top .navbar.navbar-default .nav.navbar-nav li>a {
-  color: #777;
+  color: #1c1c1c;
 }
 
 .main_header_area.headerstye-1 .header_menu.fixed-top .navbar.navbar-default .nav.navbar-nav li.active>a {
@@ -2810,19 +2810,19 @@ nav.navbar.navbar-default.navbar-sticky-in .logo-black {
 
 .main_header_area.headerstye-1 .header_menu.fixed-top .search-wrapper .search_module .search_area form .input-group .form-control {
   border-color: #f1f1f1;
-  color: #777;
+  color: #1c1c1c;
 }
 
 .main_header_area.headerstye-1 .header_menu.fixed-top .search-wrapper .search_module .search_area form .input-group .form-control::-moz-placeholder {
-  color: #777;
+  color: #1c1c1c;
 }
 
 .main_header_area.headerstye-1 .header_menu.fixed-top .search-wrapper .search_module .search_area form .input-group .form-control::placeholder {
-  color: #777;
+  color: #1c1c1c;
 }
 
 .main_header_area.headerstye-1 .header_menu.fixed-top .search-wrapper .search_module .icon-left {
-  color: #777;
+  color: #1c1c1c;
 }
 
 .fade.in {
@@ -5857,7 +5857,7 @@ section.call-to-action.maincounter .counter {
 
 .testimonial .testimonials_one_single .testimonials_one_text .customer_info span {
   font-size: 14px;
-  color: #777;
+  color: #1c1c1c;
   margin-left: 5px;
 }
 
@@ -6126,7 +6126,7 @@ section.call-to-action.maincounter .counter {
 
 .news .news-item .blog-one__content .blog-one__meta li a {
   font-size: 14px;
-  color: #777;
+  color: #1c1c1c;
   transition: all 500ms ease;
 }
 
@@ -6891,7 +6891,7 @@ footer .footer-upper .footer-links .post-list span {
 
 footer .footer-upper .footer-about p,
 footer .footer-upper .footer-about li {
-  color: #777;
+  color: #1c1c1c;
 }
 
 footer .footer-upper .footer-about li {
@@ -7332,7 +7332,7 @@ footer.footermain .footer-upper {
   margin-bottom: 0.5%;
   border: 1px dashed #f1f1f1;
   padding: 10px;
-  color: #777;
+  color: #1c1c1c;
   border-radius: 0px;
 }
 
@@ -8315,7 +8315,7 @@ ul.sidebar-tags li a:hover {
 
 .flight-navtab .nav-tabs {
   border: none;
-  background: #777;
+  background: #1c1c1c;
   border-radius: 10px 10px 0 0;
   text-align: center;
   display: inline-block;
@@ -8489,7 +8489,7 @@ ul.sidebar-tags li a:hover {
 }
 
 .home-thh .main_header_area .navbar.navbar-default.navbar-sticky-in .nav.navbar-nav li a {
-  color: #777;
+  color: #1c1c1c;
   border-color: #eee;
 }
 
@@ -9980,10 +9980,11 @@ ul.sidebar-tags li a:hover {
 .ftr-add-sec li svg {
   position: relative;
   top: 7px;
+  color: #e7be73;
 }
 
 .footer-about h4 {
-  color: #777777;
+  color: #e7be73;
   font-size: 20px;
   margin-bottom: 5px;
 }
@@ -10009,4 +10010,59 @@ ul.sidebar-tags li a:hover {
 .header_menu .navbar.navbar-default .navbar-header .navbar-brand img {
     max-width: 300px;
   }
+}
+
+
+/* Banner Section */
+
+/* Full-screen banner section */
+.thai-banner-sec-fullscreen {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  overflow: hidden; /* ensures video doesn't bleed outside */
+}
+
+/* Video container — explicitly anchored to all four edges */
+.thai-banner-sec-video-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;          /* ← explicit left: 0 is key */
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;        /* reset any inherited margin */
+  padding: 0;
+}
+
+/* Video covers full area */
+.thai-banner-sec-video {
+  position: absolute; /* ← add this */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Overlay sits on top of video, below content */
+.thai-banner-sec-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+/* Ensure banner-content sits above video & overlay */
+.thai-banner-sec-fullscreen .banner-content {
+  z-index: 2;
+}
+
+
+@media only screen and (min-width: 1200px) {
+.thai-banner-sec-fullscreen {
+  height: 80vh;
+}
 }
