@@ -10111,10 +10111,10 @@ ul.sidebar-tags li a:hover {
 
 /* Theme Text Color  */
 .thai-txt-clr-1{
-  color: #d08d00;
+  color: #d08d00 !important;
 }
 .thai-txt-clr-2{
-  color: #001A3D;
+  color: #001A3D !important;
 }
 
 @media only screen and (max-width: 475px) {
