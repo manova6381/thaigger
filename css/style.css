@@ -1147,7 +1147,7 @@ iframe {
 
 .breadcrumb li a,
 .breadcrumb li.active a {
-  color: #001A3D;
+  color: #d08d00;
 }
 
 .breadcrumb .breadcrumb-item+.breadcrumb-item:before {
@@ -1640,7 +1640,7 @@ input#submit:hover {
 }
 
 .accrodion-grp .accrodion.active .accrodion-title h5:before {
-  content: "\f106";
+  content: "\e604";
   color: #fff;
 }
 
@@ -2287,7 +2287,7 @@ header #navbar {
   .main_header_area .header_menu .navbar.navbar-default .nav.navbar-nav li a,
   .main_header_area.headerstye-1 .header_menu .navbar.navbar-default .nav.navbar-nav li a {
     padding: 10px 6px;
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 
@@ -2361,7 +2361,7 @@ header #navbar {
 
 .header_menu .navbar.navbar-default .nav.navbar-nav li a {
   background: transparent;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
   padding: 0px;
@@ -2372,7 +2372,7 @@ header #navbar {
 }
 
 .header_menu .navbar.navbar-default .nav.navbar-nav li a i {
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .header_menu .navbar.navbar-default .nav.navbar-nav li a i.fa-angle-right {
@@ -9999,7 +9999,7 @@ ul.sidebar-tags li a:hover {
 
 @media only screen and (min-width: 991px) and (max-width: 1400px) {
   .header_menu .navbar.navbar-default .nav.navbar-nav li a {
-    font-size: 13px;
+    font-size: 12px !important;
   }
 }
 @media only screen and (min-width: 991px) and (max-width: 1399px) {
@@ -10125,4 +10125,19 @@ ul.sidebar-tags li a:hover {
   .thai-vid-sec-br {
     display: none;
   }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1440px) {
+.section-shape {
+    bottom: -2px !important;
+}
+}
+
+.supp-listing-list li{
+  display: block;
+}
+
+.supp-listing-list li svg{
+  width: 17px !important;
+  padding-right: 4px !important;
 }
