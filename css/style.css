@@ -4106,6 +4106,7 @@ nav.navbar.navbar-default.navbar-sticky-in .logo-black {
   transition: all ease-in-out 0.5s;
   height: 100%;
   overflow: hidden;
+  border-radius: 10px 80px 10px 80px;
 }
 
 .trending .trend-item2>a {
@@ -8559,21 +8560,23 @@ ul.sidebar-tags li a:hover {
 }
 
 .about_us__ot .img-fluid {
-  width: 65%;
+  width: 90%;
+  border-radius: 10px 160px 10px 160px !important;
 }
 
 .about_us__ot .video-thumbnail {
   position: absolute;
   right: 20px;
   bottom: 30px;
-  width: 50%;
+  /* width: 50%; */
   border: 10px solid #fff;
   background: #fff;
-  border-radius: 10px;
+  border-radius: 50%;
 }
 
 .about_us__ot .video-thumbnail img {
-  border-radius: 5px;
+  border-radius: 50%;
+  height: 180px;
 }
 
 .about_us__ot .icon__png {
@@ -10141,3 +10144,78 @@ ul.sidebar-tags li a:hover {
   width: 17px !important;
   padding-right: 4px !important;
 }
+
+
+/* Wedding Events */
+
+/* ── Left image block ── */
+    .image-block {
+      position: relative;
+      flex: 0 0 auto;
+      width: 360px;
+      height: 420px;
+    }
+ 
+    .main-img {
+      width: 310px;
+      height: 400px;
+      object-fit: cover;
+      /* Diagonal rounded corners — top-left & bottom-right large, others 0 */
+      border-radius: 140px 0 140px 0;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+ 
+    .circle-img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      /* Border gap that matches section bg — creates the "floating" look */
+      border: 5px solid #1c2133;
+    }
+
+
+
+    /* Footer section */
+
+    .travel-agent-sub-sec{
+      display: flex;
+    gap: 35px;
+    }
+    .travel-agent-icon img{
+      width: 90px;
+      border-radius: 10px;
+    }
+    .travel-agent-icon p{
+          text-align: center;
+    font-weight: 600;
+    margin-top: 10px;
+    }
+
+
+    .download-app-sec{
+      display: flex;
+      gap: 20px;
+    }
+    .download-app-icon{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+      gap: 5px;
+      padding: 6px 18px 6px 12px;
+      border: 2px solid #fff;
+      border-radius: 15px;
+    }
+    .download-app-icon img{
+      width: 40px;
+    }
+
+        .download-app-icon p{
+          margin-bottom: 0px;
+        }
