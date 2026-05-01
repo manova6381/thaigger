@@ -10230,3 +10230,45 @@ ul.sidebar-tags li a:hover {
 .download-app-icon p {
   margin-bottom: 0px;
 }
+
+
+/* Travel to Thailand Section */
+
+.thai-travel-to-thailand-section {
+  background: #f4f8fb;
+  /* padding: 40px 0; */
+}
+
+.thai-travel-to-thailand-header h2 {
+  /* font-size: 32px; */
+  /* font-weight: 700; */
+}
+
+.thai-travel-to-thailand-header p {
+  /* color: #777;  */
+}
+
+.thai-travel-to-thailand-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+  border: 1px solid #eee;
+}
+
+.thai-travel-to-thailand-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.thai-travel-to-thailand-title {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.thai-travel-to-thailand-text {
+  font-size: 13px;
+  color: #888;
+}
