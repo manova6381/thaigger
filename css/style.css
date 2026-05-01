@@ -2944,7 +2944,7 @@ nav.navbar.navbar-default.navbar-sticky-in .logo-black {
 .modal-open .modal .modal-dialog .modal-content {
   border: none;
   position: relative;
-  border-radius: 0;
+  border-radius: 15px;
 }
 
 .modal-open .modal .modal-dialog .modal-content .modal-body {
