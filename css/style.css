@@ -6829,12 +6829,12 @@ footer .footer-upper .footer-links ul li a {
 }
 
 footer .footer-upper .footer-links ul li a:hover {
-  color: #001A3D !important;
+  color: #e7be73 !important;
   transition: all ease-in-out 0.5s;
 }
 
 footer .footer-upper .footer-links ul li a.active {
-  color: #001A3D;
+  color: #e7be73;
 }
 
 footer .footer-upper .footer-links ul p span {
@@ -8840,9 +8840,9 @@ ul.sidebar-tags li a:hover {
 }
 
 .home-eight .banner .banner-content h1 {
-    width: 90%;
-    font-size: 50px;
-    line-height: 60px;
+  width: 90%;
+  font-size: 50px;
+  line-height: 60px;
 }
 
 .home-eight .banner .banner-content .banner-booking .form-content-in {
@@ -10005,14 +10005,15 @@ ul.sidebar-tags li a:hover {
     font-size: 12px !important;
   }
 }
+
 @media only screen and (min-width: 991px) and (max-width: 1399px) {
-    .header_menu .navbar.navbar-default .navbar-header .navbar-brand img {
+  .header_menu .navbar.navbar-default .navbar-header .navbar-brand img {
     max-width: 300px;
   }
 }
 
-@media only screen and (max-width: 990px){
-.header_menu .navbar.navbar-default .navbar-header .navbar-brand img {
+@media only screen and (max-width: 990px) {
+  .header_menu .navbar.navbar-default .navbar-header .navbar-brand img {
     max-width: 300px;
   }
 }
@@ -10026,25 +10027,29 @@ ul.sidebar-tags li a:hover {
   width: 100%;
   height: 100%;
   min-height: 500px;
-  overflow: hidden; /* ensures video doesn't bleed outside */
+  overflow: hidden;
+  /* ensures video doesn't bleed outside */
 }
 
 /* Video container — explicitly anchored to all four edges */
 .thai-banner-sec-video-wrapper {
   position: absolute;
   top: 0;
-  left: 0;          /* ← explicit left: 0 is key */
+  left: 0;
+  /* ← explicit left: 0 is key */
   right: 0;
   bottom: 0;
   width: 100%;
   height: 100%;
-  margin: 0;        /* reset any inherited margin */
+  margin: 0;
+  /* reset any inherited margin */
   padding: 0;
 }
 
 /* Video covers full area */
 .thai-banner-sec-video {
-  position: absolute; /* ← add this */
+  position: absolute;
+  /* ← add this */
   top: 0;
   left: 0;
   width: 100%;
@@ -10067,21 +10072,22 @@ ul.sidebar-tags li a:hover {
 
 
 @media only screen and (min-width: 1200px) {
-.thai-banner-sec-fullscreen {
-  height: 80vh;
+  .thai-banner-sec-fullscreen {
+    height: 80vh;
+  }
 }
-}
 
 
 
-.banner-bg-1{
+.banner-bg-1 {
   background: #c1e2ff47;
 }
 
 /* thai-vid-bg- scoped styles */
 .thai-vid-bg-section {
   position: relative;
-  background-image: none !important; /* removes bg2.jpg */
+  background-image: none !important;
+  /* removes bg2.jpg */
   overflow: hidden !important;
 }
 
@@ -10113,15 +10119,16 @@ ul.sidebar-tags li a:hover {
 
 
 /* Theme Text Color  */
-.thai-txt-clr-1{
+.thai-txt-clr-1 {
   color: #d08d00 !important;
 }
-.thai-txt-clr-2{
+
+.thai-txt-clr-2 {
   color: #001A3D !important;
 }
 
 @media only screen and (max-width: 475px) {
-  .thai-vid-sec-main video{
+  .thai-vid-sec-main video {
     height: 117% !important;
   }
 
@@ -10131,16 +10138,16 @@ ul.sidebar-tags li a:hover {
 }
 
 @media only screen and (min-width: 991px) and (max-width: 1440px) {
-.section-shape {
+  .section-shape {
     bottom: -2px !important;
-}
+  }
 }
 
-.supp-listing-list li{
+.supp-listing-list li {
   display: block;
 }
 
-.supp-listing-list li svg{
+.supp-listing-list li svg {
   width: 17px !important;
   padding-right: 4px !important;
 }
@@ -10149,73 +10156,77 @@ ul.sidebar-tags li a:hover {
 /* Wedding Events */
 
 /* ── Left image block ── */
-    .image-block {
-      position: relative;
-      flex: 0 0 auto;
-      width: 360px;
-      height: 420px;
-    }
- 
-    .main-img {
-      width: 310px;
-      height: 400px;
-      object-fit: cover;
-      /* Diagonal rounded corners — top-left & bottom-right large, others 0 */
-      border-radius: 140px 0 140px 0;
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
- 
-    .circle-img {
-      width: 160px;
-      height: 160px;
-      object-fit: cover;
-      border-radius: 50%;
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      /* Border gap that matches section bg — creates the "floating" look */
-      border: 5px solid #1c2133;
-    }
+.image-block {
+  position: relative;
+  flex: 0 0 auto;
+  width: 360px;
+  height: 420px;
+}
+
+.main-img {
+  width: 310px;
+  height: 400px;
+  object-fit: cover;
+  /* Diagonal rounded corners — top-left & bottom-right large, others 0 */
+  border-radius: 140px 0 140px 0;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.circle-img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  /* Border gap that matches section bg — creates the "floating" look */
+  border: 5px solid #1c2133;
+}
 
 
 
-    /* Footer section */
+/* Footer section */
 
-    .travel-agent-sub-sec{
-      display: flex;
-    gap: 35px;
-    }
-    .travel-agent-icon img{
-      width: 90px;
-      border-radius: 10px;
-    }
-    .travel-agent-icon p{
-          text-align: center;
-    font-weight: 600;
-    margin-top: 10px;
-    }
+.travel-agent-sub-sec {
+  display: flex;
+  gap: 35px;
+}
+
+.travel-agent-icon img {
+  width: 90px;
+  border-radius: 10px;
+}
+
+.travel-agent-icon p {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 10px;
+}
 
 
-    .download-app-sec{
-      display: flex;
-      gap: 20px;
-    }
-    .download-app-icon{
-      display: flex;
-    justify-content: center;
-    align-items: center;
-      gap: 5px;
-      padding: 6px 18px 6px 12px;
-      border: 2px solid #fff;
-      border-radius: 15px;
-    }
-    .download-app-icon img{
-      width: 40px;
-    }
+.download-app-sec {
+  display: flex;
+  gap: 20px;
+}
 
-        .download-app-icon p{
-          margin-bottom: 0px;
-        }
+.download-app-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 18px 6px 12px;
+  border: 2px solid #fff;
+  border-radius: 15px;
+}
+
+.download-app-icon img {
+  width: 40px;
+}
+
+.download-app-icon p {
+  margin-bottom: 0px;
+}
