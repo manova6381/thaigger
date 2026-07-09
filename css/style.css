@@ -2156,7 +2156,7 @@ header #navbar {
 
 .main_header_area .header-content {
   position: relative;
-  z-index: 1;
+  z-index: 10;
   background: rgba(255, 255, 255, 0.1882352941);
 }
 
@@ -2287,8 +2287,8 @@ header #navbar {
 
   .main_header_area .header_menu .navbar.navbar-default .nav.navbar-nav li a,
   .main_header_area.headerstye-1 .header_menu .navbar.navbar-default .nav.navbar-nav li a {
-    padding: 10px 6px;
-    font-size: 13px;
+    padding: 10px 12px;
+    /* font-size: 13px; */
   }
 }
 
@@ -2363,13 +2363,13 @@ header #navbar {
 .header_menu .navbar.navbar-default .nav.navbar-nav li a {
   background: transparent;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   padding: 0px;
   line-height: inherit;
   transition: all 150ms linear;
   border: none;
-  padding: 0 8px;
+  padding: 0 15px;
 }
 
 .header_menu .navbar.navbar-default .nav.navbar-nav li a i {
@@ -2430,7 +2430,7 @@ header #navbar {
   color: #1c1c1c;
   font-size: 14px;
   padding: 3px 20px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 0.3px;
   transition: all 150ms linear;
   display: flex;
@@ -4112,7 +4112,7 @@ nav.navbar.navbar-default.navbar-sticky-in .logo-black {
 
 .trending .trend-item2>a {
   background-size: cover;
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
   background-position: center;
   display: inline-block;
@@ -9656,7 +9656,7 @@ ul.sidebar-tags li a:hover {
 }
 
 .mb--media-40-20 {
-  margin-bottom: 40px;
+  margin-bottom: 40px !important;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
@@ -10035,11 +10035,11 @@ ul.sidebar-tags li a:hover {
 
 
 
-@media only screen and (min-width: 991px) and (max-width: 1400px) {
+/* @media only screen and (min-width: 991px) and (max-width: 1400px) {
   .header_menu .navbar.navbar-default .nav.navbar-nav li a {
     font-size: 12px !important;
   }
-}
+} */
 
 @media only screen and (min-width: 991px) and (max-width: 1399px) {
   .header_menu .navbar.navbar-default .navbar-header .navbar-brand img {
@@ -10696,12 +10696,12 @@ ul.sidebar-tags li a:hover {
   height: 15px;
 }
 
-@media (max-width: 420px) {
+/* @media (max-width: 420px) {
   #chat-window {
     width: calc(100vw - 32px);
     right: -8px;
   }
-}
+} */
 
 
 /* Copy Rights */
@@ -11681,7 +11681,7 @@ table {
 }
 
 .section-title {
-  text-align: center;
+  /* text-align: center; */
   font-size: 24px;
   margin-bottom: 14px;
 }
@@ -12048,4 +12048,238 @@ table {
     overflow-x: auto;
     max-width: 100%;
   }
+}
+
+
+
+/* Thaigger Language EN CSS */
+
+.language-dropdown {
+    position: relative;
+    /* list-style: none; */
+}
+
+.language-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    background: #fff;
+    border: 1px solid #ddd;
+    /* padding: 0; */
+    /* margin: 0; */
+    /* list-style: none; */
+    z-index: 10;
+}
+
+.language-menu li a {
+    display: block;
+    padding: 10px 15px;
+    color: #333;
+    text-decoration: none;
+}
+
+.language-menu li a:hover {
+    background: #f5f5f5;
+}
+
+.language-dropdown:hover .language-menu {
+    display: block;
+}
+
+.language-menu li{
+        padding: 0px 0px !important;
+}
+
+
+/* Footer Copy RIghts Currency USD */
+
+.thai-curr-usd-list {
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.thai-curr-usd-list select,
+select.thai-curr-usd-list {
+    background: transparent;
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.4);
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+}
+
+.thai-curr-usd-list option {
+    color: #000;
+}
+
+.copyright-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+.copyright-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+}
+
+.thai-ftr-abt-logo-sec-1 img{
+  width: 120px;
+}
+
+.thai-ftr-abt-logo-sec img{
+  width: 180px;
+}
+
+.thai-ftr-abt-logo-sec__img-1{
+  width: 130px !important;
+}
+
+.thai-font-18{
+      font-size: 18px;
+}
+
+.thai-font-17-bm{
+      font-size: 17px;
+      font-weight: 500;
+}
+
+.trend-item2 a {
+    display: block;
+    width: 100%;
+    height: 300px; /* Adjust as needed */
+    background-size: cover;      /* Fills the container while preserving aspect ratio */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+}
+
+.thai-events-tl-sec{
+  padding: 25px 20px 20px 20px;
+}
+
+
+.thai-cust-holi-sec-wrapper {
+    background: #001A3D;
+    border-radius: 12px;
+    padding: 25px 25px;
+}
+
+.thai-cust-holi-sec-icon {
+    width: 50px;
+    height: 50px;
+    background: #d08d00;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 23px;
+}
+
+.thai-cust-holi-sec-title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.thai-cust-holi-sec-btn {
+    background: #fff;
+    color: #3F4254;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 9px 18px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .3s ease;
+}
+
+.thai-cust-holi-sec-btn:hover {
+    background: #d08d00;
+    border-color: #d08d00;
+    color: #fff;
+}
+
+
+@media (max-width: 767.98px) {
+
+    .thai-cust-holi-sec-wrapper {
+        padding: 16px;
+    }
+
+    .thai-cust-holi-sec-title {
+        margin-top: 10px;
+    }
+
+    .thai-cust-holi-sec-btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+
+
+/* ACCORDION */
+
+.thai-faq-accord-item{
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+    margin-bottom:18px;
+}
+
+.thai-faq-accord-btn{
+    width:100%;
+    border:0;
+    background:#fff;
+    padding: 10px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 500;
+    cursor:pointer;
+}
+
+.thai-faq-accord-item.active .thai-faq-accord-btn{
+    background:#f8bf08;
+}
+
+.thai-faq-accord-content{
+    display:none;
+    background:#fff;
+        padding: 12px 15px;
+}
+
+.thai-faq-accord-item.active .thai-faq-accord-content{
+    display:block;
+}
+
+.thai-faq-accord-list{
+    margin:0;
+    /* padding-left:20px; */
+}
+
+.thai-faq-accord-list li{
+    margin-bottom:3px;
+    line-height:1.8;
+    display: flex;
+    gap: 7px;
+}
+
+.thai-faq-accord-icon{
+    font-size:28px;
+    font-weight:400;
+}
+
+.thai-faq-accord-list li i{
+  position: relative;
+  top: 6px;
 }

@@ -4969,7 +4969,7 @@ Change the following styles to modify the appearance of the menu.
     -ms-transform: rotate(-135deg);
     transform: rotate(-135deg);
 }
-.nice-select.open .list {
+/* .nice-select.open .list {
     opacity: 1;
     pointer-events: auto;
     -webkit-transform: scale(1) translateY(0);
@@ -4977,6 +4977,21 @@ Change the following styles to modify the appearance of the menu.
     transform: scale(1) translateY(0);
     width: 100%;
     background: #fff;
+} */
+ .nice-select.open .list {
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(1) translateY(0);
+    width: 100%;
+    background: #fff;
+
+    /* Enable scrolling */
+    max-height: 300px;   /* Adjust as needed */
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    /* Optional: smooth scrolling on iOS */
+    -webkit-overflow-scrolling: touch;
 }
 .nice-select.disabled {
     border-color: #ededed;
